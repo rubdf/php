@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/rhscl/php-70-rhel7
+FROM ubi8/php-74
 
 RUN echo "<h1>Meu teste para Albina</h1>" > /opt/app-root/src/index.php
 
